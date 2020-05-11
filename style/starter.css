@@ -131,7 +131,6 @@ img {
   display: flex;
   justify-content:flex-start;
   flex-wrap:wrap;
-  
 }
 .class {
   display: flex;
@@ -181,6 +180,7 @@ img {
   margin-top: 2em;
 }
 
+
 /*hobbies.html*/
 img{
   width: 100%;
@@ -189,7 +189,6 @@ img{
 }
 
 article {
-  background: white;
   padding: 1rem;
 }
 
