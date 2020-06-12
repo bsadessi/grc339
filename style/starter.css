@@ -169,7 +169,7 @@ img {
   font-family: sans-serif;
   font-size: 2rem;
   margin: 0;
-  color: gray;
+  color:#4d4d4f;
 }
 
 .class p {
@@ -180,7 +180,9 @@ img {
   margin-top: 2em;
 }
 
-
+a:hover{
+    color:rgba(242, 162, 92, 95);
+}
 
 /*hobbies.html*/
 img{
@@ -195,7 +197,7 @@ article {
 
 h1 {
   font-size: 2rem;
-  color:gray;
+  color:#4d4d4f;
 }
 
 article p {
@@ -297,3 +299,71 @@ article p {
         grid-auto-flow:dense;
     }
 }
+
+.intro{
+    margin: 2em 2em;
+}
+
+/*Quotes.html*/
+
+
+.headerbox {
+  height: 100vh;
+  background-image: url('../img/blooming.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.title {
+  height: 280px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+}
+
+.title h1 {
+  color:#4d4d4f;
+  font-size: 10vw;
+}
+.content p{ 
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin: 15px auto 1px auto;
+}
+.content h2{
+    margin-top:2em;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 90ch;
+  height: 100vh;
+  padding: 2rem;
+  scroll-snap-align: start;
+}
+
+.content article {
+  padding-top: 50px;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.3;
+}
+
+.second-image {
+  height: 100vh;
+  background-image:url('../img/storm.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+
